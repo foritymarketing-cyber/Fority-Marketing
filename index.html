@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fority Marketing — Einzigartige Websites für kleine Unternehmen</title>
+  <meta name="description" content="Fority Marketing baut professionelle, einzigartige Websites für kleine Unternehmen und Selbstständige – zu fairen Preisen und mit Rundum-Betreuung. Sie kümmern sich um nichts." />
+  <meta name="theme-color" content="#000000" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Fority Marketing — Einzigartige Websites für kleine Unternehmen" />
+  <meta property="og:description" content="Professionelle, einzigartige Websites zu fairen Preisen – mit Rundum-Betreuung. Du kümmerst dich um nichts." />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23f65ac1'/%3E%3Cstop offset='1' stop-color='%234f61f9'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='8' fill='%23000'/%3E%3Cpath d='M9 22 L22 9 M14 9 H22 V17' fill='none' stroke='url(%23g)' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- shared gradient for SVG strokes -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <linearGradient id="fg" x1="0" y1="1" x2="1" y2="0">
+        <stop offset="0" stop-color="#f65ac1" />
+        <stop offset="0.5" stop-color="#b95fd6" />
+        <stop offset="1" stop-color="#4f61f9" />
+      </linearGradient>
+    </defs>
+  </svg>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <div class="wrap nav__inner">
+      <a class="nav__logo" href="index.html" aria-label="Fority Marketing — Startseite">
+        <img src="assets/logo.png" alt="Fority Marketing" width="135" />
+      </a>
+      <nav class="nav__links" aria-label="Hauptnavigation">
+        <a class="nav__link" href="index.html" aria-current="page">Start</a>
+        <a class="nav__link" href="ueber-uns.html">Über uns</a>
+        <a class="nav__link" href="kontakt.html">Kontakt</a>
+        <a class="btn btn--primary nav__cta" href="kontakt.html">Projekt starten
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
+        </a>
+      </nav>
+      <button class="nav__toggle" aria-label="Menü öffnen" aria-expanded="false"><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow hero__eyebrow">Webdesign für kleine Unternehmen &amp; Selbstständige</p>
+          <h1>
+            <span class="line"><span>Deine Website.</span></span>
+            <span class="line"><span class="grad-text">Einzigartig</span></span>
+            <span class="line"><span>gebaut.</span></span>
+          </h1>
+          <p class="hero__sub">Wir gestalten Ihnen eine professionelle Website, die wirklich nach Ihnen aussieht – und kümmern uns danach um alles. Ihr einziger Job: Ihr Geschäft.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="kontakt.html">Projekt starten
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+            <a class="btn btn--ghost" href="#leistungen">So arbeiten wir</a>
+          </div>
+        </div>
+
+        <!-- signature: growth chart -->
+        <div class="hero__art" aria-hidden="true">
+          <svg class="chart-art" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="ca-grad" gradientUnits="userSpaceOnUse" x1="80" y1="358" x2="362" y2="68">
+                <stop offset="0%"   stop-color="#f65ac1"/>
+                <stop offset="50%"  stop-color="#b95fd6"/>
+                <stop offset="100%" stop-color="#4f61f9"/>
+              </linearGradient>
+              <linearGradient id="ca-bar" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%"   stop-color="#26222f"/>
+                <stop offset="100%" stop-color="#100e18"/>
+              </linearGradient>
+              <!-- Broad atmospheric glow -->
+              <filter id="ca-glow-wide" x="-100%" y="-100%" width="300%" height="300%">
+                <feGaussianBlur stdDeviation="22" result="b"/>
+                <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+              <!-- Medium halo -->
+              <filter id="ca-glow-mid" x="-60%" y="-60%" width="220%" height="220%">
+                <feGaussianBlur stdDeviation="9" result="b2"/>
+                <feMerge><feMergeNode in="b2"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+              <!-- Tight crisp glow -->
+              <filter id="ca-glow-tight" x="-20%" y="-20%" width="140%" height="140%">
+                <feGaussianBlur stdDeviation="3" result="b3"/>
+                <feMerge><feMergeNode in="b3"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+            </defs>
+
+            <!-- Concentric background rings -->
+            <circle cx="210" cy="235" r="175" stroke="#221f2c" stroke-width="1" opacity="0.85"/>
+            <circle cx="210" cy="235" r="128" stroke="#221f2c" stroke-width="1" opacity="0.60"/>
+            <circle cx="210" cy="235" r="78"  stroke="#221f2c" stroke-width="1" opacity="0.38"/>
+
+            <!-- 3 bars: increasing height, base at y=358 -->
+            <rect x="95"  y="295" width="64" height="63"  rx="5" fill="url(#ca-bar)" stroke="#2d2840" stroke-width="1"/>
+            <rect x="178" y="215" width="64" height="143" rx="5" fill="url(#ca-bar)" stroke="#2d2840" stroke-width="1"/>
+            <rect x="261" y="125" width="64" height="233" rx="5" fill="url(#ca-bar)" stroke="#2d2840" stroke-width="1"/>
+
+            <!-- Bar top edge glow highlights -->
+            <rect x="95"  y="295" width="64" height="2.5" rx="1.5" fill="#f65ac1" opacity="0.45"/>
+            <rect x="178" y="215" width="64" height="2.5" rx="1.5" fill="#b95fd6" opacity="0.45"/>
+            <rect x="261" y="125" width="64" height="2.5" rx="1.5" fill="#4f61f9" opacity="0.45"/>
+
+            <!-- Growth curve — widest atmospheric bloom -->
+            <path d="M 80 358 C 158 354 265 172 340 92"
+                  stroke="url(#ca-grad)" stroke-width="36" stroke-linecap="round"
+                  filter="url(#ca-glow-wide)" opacity="0.28"/>
+            <!-- Medium halo -->
+            <path d="M 80 358 C 158 354 265 172 340 92"
+                  stroke="url(#ca-grad)" stroke-width="16" stroke-linecap="round"
+                  filter="url(#ca-glow-mid)" opacity="0.48"/>
+            <!-- Tight inner glow -->
+            <path d="M 80 358 C 158 354 265 172 340 92"
+                  stroke="url(#ca-grad)" stroke-width="5" stroke-linecap="round"
+                  filter="url(#ca-glow-tight)" opacity="0.75"/>
+            <!-- Crisp core line -->
+            <path d="M 80 358 C 158 354 265 172 340 92"
+                  stroke="url(#ca-grad)" stroke-width="2.5" stroke-linecap="round"/>
+
+            <!-- Arrowhead at curve tip (340,92), pointing upper-right along tangent -->
+            <polygon points="340,92 334,111 321,100" fill="url(#ca-grad)" filter="url(#ca-glow-wide)" opacity="0.32"/>
+            <polygon points="340,92 334,111 321,100" fill="url(#ca-grad)" filter="url(#ca-glow-mid)" opacity="0.55"/>
+            <polygon points="340,92 334,111 321,100" fill="url(#ca-grad)" filter="url(#ca-glow-tight)" opacity="0.85"/>
+            <polygon points="340,92 334,111 321,100" fill="url(#ca-grad)"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Einzigartig</span><span>Faire Preise</span><span>Rundum betreut</span><span>Null Aufwand</span>
+      </div>
+    </div>
+
+    <!-- ============ USPs ============ -->
+    <section class="section" id="warum">
+      <div class="wrap">
+        <div class="usp__head reveal">
+          <p class="eyebrow">Warum Fority</p>
+          <h2>Eine starke Online-Präsenz, ohne dass Sie zum Tech-Profi werden müssen.</h2>
+        </div>
+
+        <div class="usp-row reveal">
+          <div class="usp-row__mark">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </div>
+          <h3>Einzigartig, kein Template</h3>
+          <p>Keine Vorlage von der Stange. Ihre Website wird von Grund auf für Sie gestaltet – mit Ihrer Farbe, Ihrer Sprache, Ihrem Auftritt.</p>
+        </div>
+
+        <div class="usp-row reveal">
+          <div class="usp-row__mark">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </div>
+          <h3>Faire Preise</h3>
+          <p>Hohe Qualität, die Sie sich leisten können. Klare Konditionen, keine versteckten Kosten – Sie wissen von Anfang an, woran Sie sind.</p>
+        </div>
+
+        <div class="usp-row reveal">
+          <div class="usp-row__mark">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </div>
+          <h3>Rundum betreut</h3>
+          <p>Von der ersten Idee bis zur fertigen Online-Präsenz begleiten wir Sie – und sind auch danach für Sie da, wenn etwas ansteht.</p>
+        </div>
+
+        <div class="usp-row reveal">
+          <div class="usp-row__mark">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </div>
+          <h3>Null Aufwand für Sie</h3>
+          <p>Sie sagen uns, wohin Sie wollen. Den Rest machen wir – Text, Design, Technik und Veröffentlichung. Sie müssen sich um nichts kümmern.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LEISTUNGEN ============ -->
+    <section class="section alt" id="leistungen">
+      <div class="wrap lead-grid">
+        <div class="reveal">
+          <p class="eyebrow">So arbeiten wir</p>
+          <h2>Alles aus einer Hand.</h2>
+          <p class="big">Ein Ansprechpartner, ein klarer Ablauf, ein Ergebnis, auf das Sie stolz sind. Wir nehmen Ihnen die Technik komplett ab.</p>
+          <a class="btn btn--primary" href="kontakt.html" style="margin-top:32px">Kostenlos beraten lassen
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </a>
+        </div>
+        <div class="svc-list reveal" data-d="1">
+          <div class="svc"><span class="svc__no">01</span><span class="svc__body"><strong>Website-Design</strong><span>Individuell gestaltet, modern und genau auf Sie zugeschnitten.</span></span></div>
+          <div class="svc"><span class="svc__no">02</span><span class="svc__body"><strong>Texte &amp; Inhalte</strong><span>Wir formulieren Ihre Botschaft klar und überzeugend – in Ihrer Sprache.</span></span></div>
+          <div class="svc"><span class="svc__no">03</span><span class="svc__body"><strong>Technik &amp; Hosting</strong><span>Domain, Einrichtung, Updates – läuft alles automatisch im Hintergrund.</span></span></div>
+          <div class="svc"><span class="svc__no">04</span><span class="svc__body"><strong>Sichtbarkeit</strong><span>Wir sorgen dafür, dass Ihre Kunden Sie bei Google auch finden.</span></span></div>
+          <div class="svc"><span class="svc__no">05</span><span class="svc__body"><strong>Online-Präsenz</strong><span>Über die Website hinaus: Ihr stimmiger Auftritt im ganzen Netz.</span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="section">
+      <div class="wrap cta-band">
+        <div class="cta-band__inner reveal">
+          <div>
+            <h2>Bereit für eine Website, die zu Ihnen passt?</h2>
+            <p>Erzählen Sie uns kurz von Ihrem Vorhaben. Die Erstberatung ist kostenlos und unverbindlich.</p>
+          </div>
+          <a class="btn btn--primary" href="kontakt.html">Projekt starten
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <img src="assets/logo.png" alt="Fority Marketing" />
+          <p>Einzigartige Websites für kleine Unternehmen und Selbstständige. Wir kümmern uns um alles – Sie um Ihr Geschäft.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Seiten</h4>
+          <a href="index.html">Start</a>
+          <a href="ueber-uns.html">Über uns</a>
+          <a href="kontakt.html">Kontakt</a>
+        </div>
+        <div class="footer__col">
+          <h4>Kontakt</h4>
+          <a href="mailto:fority.marketing@gmail.com">fority.marketing@gmail.com</a>
+          <a href="tel:+491753242010">+49 175 3242010</a>
+          <a href="kontakt.html">Projekt starten</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span id="year">2026</span> Fority Marketing. Alle Rechte vorbehalten.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
