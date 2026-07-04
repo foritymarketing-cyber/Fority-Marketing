@@ -321,9 +321,38 @@ button { font: inherit; cursor: pointer; }
 .footer__col a:hover { color: var(--pink); }
 .footer__bottom {
   margin-top: 56px; padding-top: 26px; border-top: 1px solid var(--line);
-  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 14px;
+  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 14px 28px;
   color: var(--muted); font-size: 14px;
 }
+.footer__legal { display: flex; gap: 28px; flex-wrap: wrap; }
+.footer__legal a { color: var(--muted); transition: color .25s var(--ease); }
+.footer__legal a:hover { color: var(--pink); }
+
+/* ============================================================
+   LEGAL PAGES (Impressum / Datenschutz) — Lauftext
+   ============================================================ */
+.legal { padding-bottom: clamp(60px, 9vw, 120px); }
+.legal .wrap { max-width: 860px; }
+.legal h2 {
+  font-family: var(--display); font-weight: 700;
+  font-size: clamp(1.4rem, 3vw, 1.9rem); letter-spacing: -0.02em;
+  margin-top: 48px; margin-bottom: 14px;
+}
+.legal h3 {
+  font-family: var(--display); font-weight: 600;
+  font-size: clamp(1.1rem, 2vw, 1.3rem); margin-top: 30px; margin-bottom: 10px;
+}
+.legal h4 {
+  font-weight: 700; font-size: 1.02rem; color: var(--text);
+  margin-top: 22px; margin-bottom: 8px;
+}
+.legal p { color: var(--muted); margin-bottom: 14px; }
+.legal ul { color: var(--muted); margin: 0 0 14px 1.2em; }
+.legal li { margin-bottom: 8px; }
+.legal a { color: var(--pink); word-break: break-word; }
+.legal a:hover { text-decoration: underline; }
+.legal address { font-style: normal; color: var(--text); margin-bottom: 14px; line-height: 1.7; }
+.legal strong { color: var(--text); }
 
 /* ============================================================
    PAGE HEADER (inner pages)
